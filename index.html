@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shinhyo's Portfolio</title>
+</head>
+
+<body>
+    <main>
+        <section class="presentation">
+            <header class="header">
+                <a href="#"><img class="logo" alt="Logo icon" src="img\Logo Placeholder.svg"></a>
+                <nav class="menu">
+                    <ul>
+                        <li class="nav-item">
+                            <a href="#work"><p>Portfolio</p></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#aboutContainer"><p>About</p></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contactForm"><p>Contact</p></a>
+                        </li>
+                    </ul>
+                    <img class="bar open-menu" src="img\Icon - Menu.svg" alt="hambuger icon">
+                    <img class="bar close-menu" src="img\Icon - Cancel.svg" alt="hambuger icon">
+                </nav>
+            </header>
+            <section class="content">
+                <h1>I’m Shinhyo<br> Glad to see you!</h1>
+                <p>
+                    I’m a software developer! I can help you build a product ,
+                    feature or website Look through some of my work and experience!
+                    If you like what you see and have a project you need coded,
+                    don’t hesitate to contact me.
+                </p>
+                <h3 class="social">LET’S CONNECT</h3>
+                <ul class="socialIcon">
+                    <li><a href="#"><img class="icon" src="img\Vector.svg" alt="Tweeter icon"></a></li>
+                    <li><a href="#"><img class="icon" src="img\Linkedin icon.svg" alt="Linkedin icon"></a></li>
+                    <li><a href="#"><img class="icon" src="img\Vector m.svg" alt="Mail icon"></a></li>
+                    <li><a href="#"><img class="icon" src="img\github icon.svg" alt="Github icon"></a></li>
+                    <li><a href="#"><img class="icon" src="img\peace icon.svg" alt="Peace icon"></a></li>
+                </ul>
+            </section>
+        </section>
+        <section id="work"></section>
+        <section class="presentation" id="aboutContainer">
+            <section class="content" id="about">
+                <h2 class="Title">About<br>Myself</h2>
+                <p>
+                    Hello I’m a software developer! I can help
+                    you build a product , feature or website
+                    Look through some of my work and experience!
+                    If you like what you see and have a project you
+                    need coded, don’t hesitate to contact me.
+                </p>
+                <h3>LET’S CONNECT</h3>
+                <ul class="socialIcon">
+                    <li><a href="#"><img class="icon" src="img\Vector.svg" alt="Tweeter icon"></a></li>
+                    <li><a href="#"><img class="icon" src="img\Linkedin icon.svg" alt="Linkedin icon"></a></li>
+                    <li><a href="#"><img class="icon" src="img\Vector m.svg" alt="Mail icon"></a></li>
+                    <li><a href="#"><img class="icon" src="img\github icon.svg" alt="Github icon"></a></li>
+                    <li><a href="#"><img class="icon" src="img\peace icon.svg" alt="Peace icon"></a></li>
+                </ul>
+                <button class="button">Get my resume</button>
+            </section>
+            <section class="languages">
+                <article class="dropdownHead" id="open">
+                    <h4>Languages</h4>
+                    <img src="img\Union.svg" alt="Vector icon">
+                </article>
+                <ul class="listOfLanguages">
+                    <li><img src="img\javaicon.svg" alt="javaScript">
+                        <p>JavaScript</p>
+                    </li>
+                    <li><img src="img\htmlicon.svg" alt="HTML">
+                        <p>HTML</p>
+                    </li>
+                    <li><img src="img\cssicon.svg" alt="CSS">
+                        <p>CSS</p>
+                    </li>
+                </ul>
+                <article class="dropdownHead">
+                    <h4>Frameworks</h4>
+                    <img src="img\Unionside.svg" alt="Side vector icon">
+                </article>
+                <article class="dropdownHead">
+                    <h4>Skills</h4>
+                    <img src="img\Unionside.svg" alt="Side vector icon">
+                </article>
+            </section>
+        </section>
+    </main>
+    <section class="contact" id="contactForm">
+        <h2 class="Title">Contact me</h2>
+        <p>If you have an application you are interested in
+            developing, a feature that you need built or a project that needs coding.
+            I’d love to help with it
+        </p>
+        <form action="https://formspree.io/f/mgeqpzab" method="POST" id="contact-me-form">
+            <input class="single-line-input" type="text" name="name" placeholder="Enter your name" maxlength="30" required>
+            <input class="single-line-input" type="email" id="email" name="email" placeholder="Enter you email" required>
+            <small class="error"></small>
+            <textarea class="comment" placeholder="Write your message here" required name="message"></textarea>
+            <button class="button" type="submit">Get In Touch</button>
+        </form>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
