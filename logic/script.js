@@ -33,11 +33,11 @@ const projects = [
     your browser, let you mark them as completed and let erase them`,
     resume: `To do taks is a website that allows you to create a list of task 
     that you want to save online.`,
-    image: 'img/todo-list.png',
+    image: '../img/todo-list.png',
     technologies: ['html', 'JavaScript', 'css'],
     linkToLiveVersion: 'https://shinhyobelok.github.io/To-do-list/',
     linkToSource: 'https://github.com/ShinhyoBelok/To-do-list',
-    dot: 'img/Counter.svg',
+    dot: '../img/Counter.svg',
     canopyli1: 'Back End Dev',
     canopyli2: '2015',
     projectLanguages: [
@@ -57,7 +57,7 @@ const projects = [
       electronic typesetting, remaining essent`,
     resume: `A daily selection of privately personalized reads; 
       no accounts or sign-ups required.`,
-    image: 'img/Snapshoot Portfolio 2.svg',
+    image: '../img/Snapshoot Portfolio 2.svg',
     technologies: ['html', 'JavaScript', 'css'],
     linkToLiveVersion: '#',
     linkToSource: '#',
@@ -132,7 +132,7 @@ function createProgrammingLanguages(x) {
 
 for (let i = 0; i < projects.length; i += 1) {
   const projectCard = `
-    <section class="project" id="project-${i}">
+    <section class="project hidden" id="project-${i}">
                   <img class="snap ${projects[i].contentDirection}" src="${projects[i].image}" alt="First project card picture">
                   <h2>${projects[i].name}</h2>
                   <section>
