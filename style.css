@@ -9,6 +9,17 @@
 }
 
 /* GENERAL STYLING */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
   color: #6070ff;
@@ -123,8 +134,10 @@ h4 {
 
 .menu {
   display: flex;
-  padding-right: 8.53%;
-  position: relative;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 0 2rem;
+  box-sizing: border-box;
 }
 
 .presentation .menu.active {
@@ -204,6 +217,11 @@ ul {
 .content h1 {
   animation-name: title-intro;
   animation-duration: 2s;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
 }
 
 @keyframes title-intro {
