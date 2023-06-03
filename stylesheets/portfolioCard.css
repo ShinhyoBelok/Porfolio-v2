@@ -1,0 +1,25 @@
+.project {
+  display: grid;
+  background-color: #fff;
+  margin: 6.4%;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  padding: 1rem;
+  gap: 12px;
+}
+
+@media (min-width: 768px) {
+  .project {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 1fr;
+    grid-column-gap: 46px;
+    grid-row-gap: 0;
+    align-items: center;
+    min-height: 420px;
+  }
+
+  .snap {
+    grid-row: 1 / 6;
+    width: 100%;
+  }
+}

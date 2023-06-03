@@ -48,24 +48,24 @@ const projects = [
   },
 
   {
-    name: 'Multi-Post Stories',
-    description: `Lorem Ipsum is simply dummy text of the printing 
-      and typesetting industry. Lorem Ipsum has been the industry's 
-      standard dummy text ever since the 1500s, when an unknown printer 
-      took a galley of type and scrambled it to make a type specimen book. 
-      It has survived not only five centuries, but also the leap into 
-      electronic typesetting, remaining essent`,
-    resume: `A daily selection of privately personalized reads; 
-      no accounts or sign-ups required.`,
-    image: '../img/Snapshoot Portfolio 2.svg',
-    technologies: ['html', 'JavaScript', 'css'],
+    name: 'BigOven',
+    description: `BigOven is a ruby on rails app that help you 
+    save your favorites recipes and let you keep track of your 
+    food inventory by adding the food in the app, When you want 
+    to cook a recipe you can generate a shopping list to see what 
+    you missing to be able to do that recipe.`,
+    resume: `BigOven is a ruby on rails app that help you 
+    save your favorites recipes and let you keep track of your 
+    food inventory.`,
+    image: '../img/portfolio/bigoven.png',
+    technologies: ['Ruby on Rails', 'HTML', 'CSS'],
     linkToLiveVersion: '#',
     linkToSource: '#',
     dot: 'img/Counter.svg',
     canopyli1: 'Back End Dev',
-    canopyli2: '2015',
+    canopyli2: '2023',
     projectLanguages: [
-      'html', 'css', 'javaScript',
+      'Ruby on Rails', 'HTML', 'CSS'
     ],
     btnId: 'see-project-2',
     contentDirection: 'reverseGrid',
@@ -137,7 +137,7 @@ for (let i = 0; i < projects.length; i += 1) {
                   <h2>${projects[i].name}</h2>
                   <section>
                       <ul class="canopy">
-                          <li>CANOPY</li>
+                          <li>PROJECT</li>
                           <li><img src="${projects[i].dot}" alt="Dot icon"></li>
                           <li><span class="lightgray">${projects[i].canopyli1}</span></li>
                           <li><img src="${projects[i].dot}" alt="Dot icon"></li>
@@ -161,8 +161,8 @@ workSection.innerHTML += `
         <button class="close-btn-modal"><img src="img/Icon-Cancel-detailmode.svg" alt="X"/></button>
     </header>
     <section>
-        <ul class="canopy">
-            <li>CANOPY</li>
+        <ul class="canopy popup">
+            <li>PROJECT</li>
             <li><img src="img/Counter.svg" alt="Dot icon"></li>
             <li><span class="lightgray">Back End Dev</span></li>
             <li><img src="img/Counter.svg" alt="Dot icon"></li>
@@ -175,7 +175,7 @@ workSection.innerHTML += `
             <p></p>
         </div>
         <div class="side-description">
-            <ul class="programmingLanguages">
+            <ul class="programmingLanguages popup">
                 <li>html</li>
                 <li>css</li>
                 <li>javaScript</li>
@@ -199,6 +199,8 @@ const cardDescription = document.querySelector('.modal p');
 const openBtn = document.querySelectorAll('.project .button.detail');
 const seeLive = document.querySelector('.seeLive');
 const seeSource = document.querySelector('.seeSource');
+const technologies = document.querySelector('.programmingLanguages.popup');
+const canopy = document.querySelector('.canopy.popup');
 
 function cardContent(event) {
   const i = (event.slice(12)) - 1;
@@ -207,12 +209,20 @@ function cardContent(event) {
   cardDescription.textContent = projects[i].description;
   seeLive.href = projects[i].linkToLiveVersion;
   seeSource.href = projects[i].linkToSource;
+  technologies.innerHTML = createProgrammingLanguages(i);
+  canopy.innerHTML = `
+    <li>PROJECT</li>
+    <li><img src="img/Counter.svg" alt="Dot icon"></li>
+    <li><span class="lightgray">${projects[i].canopyli1}</span></li>
+    <li><img src="img/Counter.svg" alt="Dot icon"></li>
+    <li><span class="lightgray">${projects[i].canopyli2}</span></li>
+  `;
 }
 
 function elementEvent(element) {
   element.addEventListener('click', (event) => {
     cardContent(event.target.id);
-    popupContainer.style.transform = 'scale(1)';
+    popupContainer.style.animation = 'show 0.5s forwards';
     overlay.style.transform = 'scale(1)';
   });
 }
@@ -223,6 +233,7 @@ openBtn.forEach((element) => {
 
 closeBtnModal.addEventListener('click', () => {
   popupContainer.style.transform = 'scale(0)';
+  popupContainer.style.animation = '';
   overlay.style.transform = 'scale(0)';
 });
 /* end dynamic modal */

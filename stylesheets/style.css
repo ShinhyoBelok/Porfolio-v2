@@ -220,16 +220,6 @@ h4 {
   background: #e5e5e5;
 }
 
-.project {
-  display: grid;
-  background-color: #fff;
-  margin: 6.4%;
-  border-radius: 1rem;
-  box-sizing: border-box;
-  padding: 1rem;
-  gap: 12px;
-}
-
 .contact h2 {
   font-size: 40px;
   line-height: 55px;
@@ -470,7 +460,6 @@ h4 {
 .modal#popup-window {
   align-self: center;
   transform: scale(0);
-  transition: 0.9s;
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
@@ -487,13 +476,21 @@ h4 {
   overflow-x: hidden;
 }
 
+@keyframes show {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(0.85);
+  }
+}
+
 .modal header {
   display: flex;
 }
 
 .modal#overlay {
   transform: scale(0);
-  transition: 0.4s;
   position: fixed;
   top: 0;
   left: 0;
@@ -578,20 +575,6 @@ h4 {
 
   .presentation {
     background-image: url("../img/desktop presentation img.svg");
-  }
-
-  .project {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 1fr;
-    grid-column-gap: 46px;
-    grid-row-gap: 0;
-    align-items: center;
-  }
-
-  .snap {
-    grid-row: 1 / 6;
-    width: 100%;
-    height: 100%;
   }
 
   h2 {
