@@ -59,8 +59,8 @@ const projects = [
     food inventory.`,
     image: '../img/portfolio/bigoven.png',
     technologies: ['Ruby on Rails', 'HTML', 'CSS'],
-    linkToLiveVersion: '#',
-    linkToSource: '#',
+    linkToLiveVersion: 'https://bigoven.onrender.com',
+    linkToSource: 'https://github.com/ShinhyoBelok/BigOven',
     dot: 'img/Counter.svg',
     canopyli1: 'Back End Dev',
     canopyli2: '2023',
@@ -169,7 +169,7 @@ workSection.innerHTML += `
             <li><span class="lightgray">2015</span></li>
         </ul>
     </section>
-    <img class="snap" src="" alt="First project card picture">
+    <img class="snap modalpic" src="" alt="First project card picture">
     <article class="modal-description">
         <div class="side">
             <p></p>
@@ -181,8 +181,8 @@ workSection.innerHTML += `
                 <li>javaScript</li>
             </ul>
             <section class="btnSection">
-                <button class="button modal-btn"><a class="seeLive" href="">See live</a><img src="img/Icon - Export-btn.svg" alt="Export Icon"/></button>
-                <button class="button modal-btn"><a class="seeSource" href="">See Source</a><img src="img/Icon -GitHub-btn.svg" alt="Github Icon"/></button>
+                <button class="button modal-btn"><a class="seeLive" href="" target="_blank">See live</a><img src="img/Icon - Export-btn.svg" alt="Export Icon"/></button>
+                <button class="button modal-btn"><a class="seeSource" href="" target="_blank">See Source</a><img src="img/Icon -GitHub-btn.svg" alt="Github Icon"/></button>
             </section>
         </div>
     </article>
