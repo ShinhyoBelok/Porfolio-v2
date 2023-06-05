@@ -182,8 +182,8 @@ workSection.innerHTML += `
                 <li>javaScript</li>
             </ul>
             <section class="btnSection">
-                <button class="button modal-btn"><a class="seeLive" href="" target="_blank">See live</a><img src="img/Icon - Export-btn.svg" alt="Export Icon"/></button>
-                <button class="button modal-btn"><a class="seeSource" href="" target="_blank">See Source</a><img src="img/Icon -GitHub-btn.svg" alt="Github Icon"/></button>
+                <a class="seeLive" href="" target="_blank"><button class="button modal-btn">See live<img src="img/Icon - Export-btn.svg" alt="Export Icon"/></button></a>
+                <a class="seeSource" href="" target="_blank"><button class="button modal-btn">See Source<img src="img/Icon -GitHub-btn.svg" alt="Github Icon"/></button></a>
             </section>
         </div>
     </article>

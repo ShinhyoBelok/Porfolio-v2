@@ -315,6 +315,11 @@ h4 {
   background: #2230d2;
 }
 
+.button:active {
+  color: #fff;
+  background: #2230d2;
+}
+
 .button:disabled {
   color: #5e6c84;
   background-color: #fff;
