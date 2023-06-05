@@ -40,9 +40,9 @@ const projects = [
     dot: '../img/Counter.svg',
     canopyli1: 'Back End Dev',
     canopyli2: '2015',
-    projectLanguages: [
-      'html', 'css', 'javaScript',
-    ],
+    // projectLanguages: [
+    //   'html', 'css', 'javaScript',
+    // ],
     btnId: 'see-project-1',
     contentDirection: '',
   },
@@ -64,33 +64,34 @@ const projects = [
     dot: 'img/Counter.svg',
     canopyli1: 'Back End Dev',
     canopyli2: '2023',
-    projectLanguages: [
-      'Ruby on Rails', 'HTML', 'CSS'
-    ],
+    // projectLanguages: [
+    //   'Ruby on Rails', 'HTML', 'CSS'
+    // ],
     btnId: 'see-project-2',
     contentDirection: 'reverseGrid',
   },
 
   {
-    name: 'Tonic',
-    description: `Lorem Ipsum is simply dummy text of the printing 
-      and typesetting industry. Lorem Ipsum has been the industry's 
-      standard dummy text ever since the 1500s, when an unknown printer 
-      took a galley of type and scrambled it to make a type specimen book. 
-      It has survived not only five centuries, but also the leap into 
-      electronic typesetting, remaining essent`,
-    resume: `A daily selection of privately personalized reads; 
-      no accounts or sign-ups required.`,
-    image: 'img/Snapshoot Portfolio 3.svg',
-    technologies: ['html', 'JavaScript', 'css'],
-    linkToLiveVersion: '#',
-    linkToSource: '#',
+    name: 'Space Travelers Hub',
+    description: `This project involves the use of React and real-time 
+    data sourced from the SpaceX API. Our objective is to develop a web 
+    application for a company specializing in commercial and scientific 
+    space travel services. Through this application, users will have the 
+    opportunity to reserve rockets and participate in specific space missions.`,
+    resume: `This project involves the use of React and real-time data 
+    sourced from the SpaceX API. Through this application, users will 
+    have the opportunity to reserve rockets and participate in specific 
+    space missions.`,
+    image: '../img/portfolio/spacehub.png',
+    technologies: ['React', 'Redux', 'JavaScript', 'HTML', 'CSS'],
+    linkToLiveVersion: 'https://alejandrakeber-space-travelers-hub.onrender.com/',
+    linkToSource: 'https://github.com/ShinhyoBelok/space-travelers-hub',
     dot: 'img/Counter.svg',
-    canopyli1: 'Back End Dev',
-    canopyli2: '2015',
-    projectLanguages: [
-      'html', 'css', 'javaScript',
-    ],
+    canopyli1: 'Front End Dev',
+    canopyli2: '2023',
+    // projectLanguages: [
+    //   'html', 'css', 'javaScript',
+    // ],
     btnId: 'see-project-3',
     contentDirection: '',
   },
@@ -112,9 +113,9 @@ const projects = [
     dot: 'img/Counter.svg',
     canopyli1: 'Back End Dev',
     canopyli2: '2015',
-    projectLanguages: [
-      'html', 'css', 'javaScript',
-    ],
+    // projectLanguages: [
+    //   'html', 'css', 'javaScript',
+    // ],
     btnId: 'see-project-4',
     contentDirection: 'reverseGrid',
   },
@@ -124,8 +125,8 @@ const workSection = document.querySelector('#work');
 
 function createProgrammingLanguages(x) {
   let list = '';
-  for (let i = 0; i < projects[x].projectLanguages.length; i += 1) {
-    list += `<li>${projects[x].projectLanguages[i]}</li>`;
+  for (let i = 0; i < projects[x].technologies.length; i += 1) {
+    list += `<li>${projects[x].technologies[i]}</li>`;
   }
   return list;
 }
