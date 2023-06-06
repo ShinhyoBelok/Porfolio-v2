@@ -261,17 +261,6 @@ h4 {
   padding: 4px 12px;
 }
 
-.listOfLanguages li {
-  display: flex;
-  width: 90%;
-  align-items: center;
-  box-sizing: border-box;
-  padding: 9px 12px;
-  gap: 5%;
-  background-color: #f7f7f9;
-  border-radius: 1rem;
-}
-
 .socialIcon li {
   transition: transform 0.2s;
 }
@@ -346,31 +335,6 @@ h4 {
   flex-direction: column;
   width: 100%;
   height: 70vh;
-}
-
-.dropdownHead {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 3.7%;
-  box-sizing: border-box;
-  padding: 24px 12px;
-  border-bottom: 1px;
-  border-color: #dfe1e6;
-  border-style: solid;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-}
-
-.listOfLanguages {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#open {
-  border: 0;
 }
 
 .contact {
@@ -572,8 +536,6 @@ h4 {
     line-height: 28px;
   }
 
-
-
   .menu img {
     display: none;
   }
@@ -618,27 +580,6 @@ h4 {
     background-image: url("../img/contact form background desktop.svg");
     background-position: center;
     background-position-y: 25px;
-  }
-
-  .listOfLanguages {
-    margin-left: 5%;
-    flex-direction: row;
-    justify-content: start;
-  }
-
-  .listOfLanguages li {
-    align-items: start;
-    flex-direction: column;
-    font-weight: 500;
-    width: 20%;
-    min-width: fit-content;
-    max-width: 105px;
-  }
-
-  .listOfLanguages p {
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
   }
 
   .contact button {
