@@ -14,14 +14,17 @@
   border: 0;
 }
 
-.listOfLanguages {
+.ulAbout {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  transform: scale(0);
+  transform: translateY(-1rem);
+  position: fixed;
 }
 
-.listOfLanguages li {
+.ulAbout li {
   display: flex;
   width: 90%;
   align-items: center;
@@ -30,6 +33,10 @@
   gap: 5%;
   background-color: #f7f7f9;
   border-radius: 1rem;
+}
+
+.ulAbout li img {
+  width: 48px;
 }
 
 .side_arrow {
@@ -42,12 +49,6 @@
   transition: 0.2s;
 }
 
-.ulAbout {
-  transform: scale(0);
-  transform: translateY(-1rem);
-  position: fixed;
-}
-
 .showUlAbout {
   position: static;
   transform: scale(1);
@@ -57,14 +58,13 @@
 
 @media (min-width: 768px) {
 
-  .listOfLanguages {
+  .ulAbout {
     margin-left: 5%;
     flex-direction: row;
     justify-content: start;
   }
   
-  .listOfLanguages li {
-    align-items: start;
+  .ulAbout li {
     flex-direction: column;
     font-weight: 500;
     width: 20%;
@@ -72,7 +72,7 @@
     max-width: 105px;
   }
 
-  .listOfLanguages p {
+  .ulAbout p {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
