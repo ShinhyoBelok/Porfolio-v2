@@ -41,11 +41,8 @@ const projects = [
     linkToLiveVersion: 'https://shinhyobelok.github.io/To-do-list/',
     linkToSource: 'https://github.com/ShinhyoBelok/To-do-list',
     dot: '../img/Counter.svg',
-    canopyli1: 'Back End Dev',
-    canopyli2: '2015',
-    // projectLanguages: [
-    //   'html', 'css', 'javaScript',
-    // ],
+    canopyli1: 'Front End Dev',
+    canopyli2: '2023',
     btnId: 'see-project-1',
     contentDirection: '',
   },
@@ -67,9 +64,6 @@ const projects = [
     dot: 'img/Counter.svg',
     canopyli1: 'Back End Dev',
     canopyli2: '2023',
-    // projectLanguages: [
-    //   'Ruby on Rails', 'HTML', 'CSS'
-    // ],
     btnId: 'see-project-2',
     contentDirection: 'reverseGrid',
   },
@@ -92,35 +86,47 @@ const projects = [
     dot: 'img/Counter.svg',
     canopyli1: 'Front End Dev',
     canopyli2: '2023',
-    // projectLanguages: [
-    //   'html', 'css', 'javaScript',
-    // ],
     btnId: 'see-project-3',
     contentDirection: '',
   },
 
   {
-    name: 'Multi-Post Stories',
-    description: `Lorem Ipsum is simply dummy text of the printing 
-      and typesetting industry. Lorem Ipsum has been the industry's 
-      standard dummy text ever since the 1500s, when an unknown printer 
-      took a galley of type and scrambled it to make a type specimen book. 
-      It has survived not only five centuries, but also the leap into 
-      electronic typesetting, remaining essent`,
-    resume: `A daily selection of privately personalized reads; 
-      no accounts or sign-ups required.`,
-    image: 'img/Snapshoot Portfolio 4.svg',
-    technologies: ['html', 'JavaScript', 'css'],
-    linkToLiveVersion: '#',
-    linkToSource: '#',
+    name: 'Crypto Currencies',
+    description: `Crypto Currencies is a web application that provides 
+    live information about the top 100 cryptocurrencies through a live API. 
+    The web app allows users to get all details related to the top cryptos.`,
+    resume: `Crypto Currencies is a web application that provides 
+    live information about the top 100 cryptocurrencies through a live API. 
+    The web app allows users to get all details related to the top cryptos.`,
+    image: '../img/portfolio/crypto.png',
+    technologies: ['React', 'Redux','JavaScript', 'Jest','API', 'HTML', 'CSS'],
+    linkToLiveVersion: 'https://crypto-currencies-shinhyobelok.netlify.app/',
+    linkToSource: 'https://github.com/ShinhyoBelok/crypto-webapp',
     dot: 'img/Counter.svg',
-    canopyli1: 'Back End Dev',
-    canopyli2: '2015',
-    // projectLanguages: [
-    //   'html', 'css', 'javaScript',
-    // ],
+    canopyli1: 'Front End Dev',
+    canopyli2: '2023',
     btnId: 'see-project-4',
     contentDirection: 'reverseGrid',
+  },
+
+  {
+    name: 'Chopin Concerts',
+    description: `The Chopin Concerts. This extraordinary website is dedicated 
+    to showcasing the extraordinary talent and artistry of world-class pianists, 
+    as they bring the timeless compositions of Frederic Chopin to life. Let the melodies 
+    of the piano ignite your soul and transport you to a world of pure artistic bliss.`,
+    resume: `Welcome to the website for the Chopin Concerts! This platform 
+    showcases exceptional performances by numerous highly skilled pianists. 
+    Here, you can access all the necessary information for the upcoming events.`,
+    image: '../img/portfolio/chopin.png',
+    technologies: ['JavaScript', 'HTML', 'CSS'],
+    linkToLiveVersion: 'https://shinhyobelok.github.io/Classical-music-concert/',
+    linkToSource: 'https://github.com/ShinhyoBelok/Classical-music-concert',
+    dot: 'img/Counter.svg',
+    canopyli1: 'Front End Dev',
+    canopyli2: '2023',
+    btnId: 'see-project-5',
+    contentDirection: '',
   },
 ];
 
