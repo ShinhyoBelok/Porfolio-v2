@@ -28,13 +28,16 @@ closeMenu.addEventListener('click', () => {
 const projects = [
   {
     name: 'To-do list',
-    description: `I created a To-do list website with a really nice UX using 
-    webpack that let you create a list that is saved in the local storage of 
-    your browser, let you mark them as completed and let erase them`,
-    resume: `To do taks is a website that allows you to create a list of task 
-    that you want to save online.`,
+    description: `To do taks is a convenient website that empowers 
+    you to effortlessly compile and manage your tasks in an online 
+    format. Seamlessly create and organize a comprehensive task list,
+     ensuring that your important to-dos are securely stored and 
+     easily accessible anytime, anywhere.`,
+    resume: `To do taks is a convenient website that empowers 
+    you to effortlessly compile and manage your tasks in an online 
+    format.`,
     image: '../img/todo-list.png',
-    technologies: ['html', 'JavaScript', 'css'],
+    technologies: ['Webpack', 'JavaScript', 'HTML', 'CSS'],
     linkToLiveVersion: 'https://shinhyobelok.github.io/To-do-list/',
     linkToSource: 'https://github.com/ShinhyoBelok/To-do-list',
     dot: '../img/Counter.svg',
