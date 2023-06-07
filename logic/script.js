@@ -36,11 +36,11 @@ const projects = [
     resume: `To do taks is a convenient website that empowers 
     you to effortlessly compile and manage your tasks in an online 
     format.`,
-    image: '../img/todo-list.png',
+    image: 'img/todo-list.png',
     technologies: ['Webpack', 'JavaScript', 'HTML', 'CSS'],
     linkToLiveVersion: 'https://shinhyobelok.github.io/To-do-list/',
     linkToSource: 'https://github.com/ShinhyoBelok/To-do-list',
-    dot: '../img/Counter.svg',
+    dot: 'img/Counter.svg',
     canopyli1: 'Front End Dev',
     canopyli2: '2023',
     btnId: 'see-project-1',
@@ -57,7 +57,7 @@ const projects = [
     resume: `BigOven is a ruby on rails app that help you 
     save your favorites recipes and let you keep track of your 
     food inventory.`,
-    image: '../img/portfolio/bigoven.png',
+    image: 'img/portfolio/bigoven.png',
     technologies: ['Ruby on Rails', 'HTML', 'CSS'],
     linkToLiveVersion: 'https://bigoven.onrender.com',
     linkToSource: 'https://github.com/ShinhyoBelok/BigOven',
@@ -79,7 +79,7 @@ const projects = [
     sourced from the SpaceX API. Through this application, users will 
     have the opportunity to reserve rockets and participate in specific 
     space missions.`,
-    image: '../img/portfolio/spacehub.png',
+    image: 'img/portfolio/spacehub.png',
     technologies: ['React', 'Redux', 'JavaScript', 'HTML', 'CSS'],
     linkToLiveVersion: 'https://alejandrakeber-space-travelers-hub.onrender.com/',
     linkToSource: 'https://github.com/ShinhyoBelok/space-travelers-hub',
@@ -98,7 +98,7 @@ const projects = [
     resume: `Crypto Currencies is a web application that provides 
     live information about the top 100 cryptocurrencies through a live API. 
     The web app allows users to get all details related to the top cryptos.`,
-    image: '../img/portfolio/crypto.png',
+    image: 'img/portfolio/crypto.png',
     technologies: ['React', 'Redux','JavaScript', 'Jest','API', 'HTML', 'CSS'],
     linkToLiveVersion: 'https://crypto-currencies-shinhyobelok.netlify.app/',
     linkToSource: 'https://github.com/ShinhyoBelok/crypto-webapp',
@@ -118,7 +118,7 @@ const projects = [
     resume: `Welcome to the website for the Chopin Concerts! This platform 
     showcases exceptional performances by numerous highly skilled pianists. 
     Here, you can access all the necessary information for the upcoming events.`,
-    image: '../img/portfolio/chopin.png',
+    image: 'img/portfolio/chopin.png',
     technologies: ['JavaScript', 'HTML', 'CSS'],
     linkToLiveVersion: 'https://shinhyobelok.github.io/Classical-music-concert/',
     linkToSource: 'https://github.com/ShinhyoBelok/Classical-music-concert',
