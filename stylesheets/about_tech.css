@@ -77,4 +77,12 @@
     font-size: 15px;
     line-height: 20px;
   }
+
+  .presentation {
+    align-items: start;
+  }
+
+  .languages {
+    margin-top: 10vh;
+  }
 }
