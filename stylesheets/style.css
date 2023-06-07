@@ -102,10 +102,10 @@ h4 {
 .close-menu {
   display: none;
   position: fixed;
-  top: 14px;
-  right: 15%;
-  height: 40px;
-  width: 40px;
+  top: 8.5px;
+  right: 2rem;
+  height: 31px;
+  width: 24px;
 }
 
 .show {
@@ -121,14 +121,15 @@ h4 {
   position: fixed;
   top: 0;
   left: 0;
+  bottom: 0;
+  right: 0;
   flex-direction: column;
-  height: 100vh;
-  width: 100%;
   background-color: rgba(50, 70, 255, 0.8);
   backdrop-filter: blur(9px);
 }
 
 .menu.active ul {
+  position: fixed;
   display: flex;
   list-style: none;
   flex-direction: column;
@@ -539,7 +540,7 @@ h4 {
   .menu img {
     display: none;
   }
-  
+
   h2 {
     font-weight: 700;
     font-size: 40px;
