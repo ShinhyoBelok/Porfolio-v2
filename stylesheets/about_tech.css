@@ -57,13 +57,12 @@
 }
 
 @media (min-width: 768px) {
-
   .ulAbout {
     margin-left: 5%;
     flex-direction: row;
     justify-content: start;
   }
-  
+
   .ulAbout li {
     flex-direction: column;
     font-weight: 500;

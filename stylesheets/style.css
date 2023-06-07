@@ -16,7 +16,8 @@
   font-family: 'Poppins-normal', Arial, Helvetica, sans-serif;
 }
 
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -306,11 +307,6 @@ h4 {
   background: #2230d2;
 }
 
-.button:active {
-  color: #fff;
-  background: #2230d2;
-}
-
 .button:disabled {
   color: #5e6c84;
   background-color: #fff;
@@ -352,9 +348,8 @@ h4 {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  padding: 0 6.2%;
-  gap: 12px;
   padding: 2rem;
+  gap: 12px;
 }
 
 .contact form {
@@ -450,6 +445,7 @@ h4 {
   0% {
     transform: scale(0);
   }
+
   100% {
     transform: scale(0.85);
   }

@@ -99,7 +99,7 @@ const projects = [
     live information about the top 100 cryptocurrencies through a live API. 
     The web app allows users to get all details related to the top cryptos.`,
     image: 'img/portfolio/crypto.png',
-    technologies: ['React', 'Redux','JavaScript', 'Jest','API', 'HTML', 'CSS'],
+    technologies: ['React', 'Redux', 'JavaScript', 'Jest', 'API', 'HTML', 'CSS'],
     linkToLiveVersion: 'https://crypto-currencies-shinhyobelok.netlify.app/',
     linkToSource: 'https://github.com/ShinhyoBelok/crypto-webapp',
     dot: 'img/Counter.svg',
