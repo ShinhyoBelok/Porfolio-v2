@@ -3,7 +3,7 @@
 <div align="center">
 
   <img src="https://img.icons8.com/nolan/64/vaporwave.png" alt="logo" width="220"  height="auto" />
-  <h1><b>My Portfolio<</b></h1>
+  <h1><b>My Portfolio</b></h1>
 
 </div>
 
