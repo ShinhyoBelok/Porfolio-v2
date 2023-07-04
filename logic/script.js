@@ -128,6 +128,29 @@ const projects = [
     btnId: 'see-project-5',
     contentDirection: '',
   },
+
+  {
+    name: 'Earthbnb-frontend',
+    description: `This web application is built to enable users browser 
+    through different houses which they can reserve on choice basis. The 
+    users can add their own houses to let other users reserve that for 
+    extra income. Users can register an account to use the website with 
+    full access with a unique username.`,
+    resume: `This web application is built to enable users browser 
+    through different houses which they can reserve on choice basis. The 
+    users can add their own houses to let other users reserve that for 
+    extra income. Users can register an account to use the website with 
+    full access with a unique username.`,
+    image: 'img/portfolio/ebnb.jpeg',
+    technologies: ['Reactjs', 'JavaScript', 'Redux', 'Bootstrap', 'HTML', 'CSS',],
+    linkToLiveVersion: 'https://prangonghose.github.io/Earthbnb-frontend/',
+    linkToSource: 'https://github.com/PrangonGhose/Earthbnb-frontend',
+    dot: 'img/Counter.svg',
+    canopyli1: 'Front End Dev',
+    canopyli2: '2023',
+    btnId: 'see-project-6',
+    contentDirection: '',
+  },
 ];
 
 const workSection = document.querySelector('#work');
